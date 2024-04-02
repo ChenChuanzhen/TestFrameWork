@@ -13,6 +13,7 @@
 		841A4E182BB6B050008C2253 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 841A4E0A2BB6B04F008C2253 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848D415B2BBBE6A2001310EA /* CommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 848D41592BBBE6A2001310EA /* CommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848D415C2BBBE6A2001310EA /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D415A2BBBE6A2001310EA /* CommonUtils.m */; };
+		848D41602BBBF910001310EA /* TestFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 848D415F2BBBF910001310EA /* TestFramework.podspec */; };
 		A7B9EE76E5BAADA3A3C963BB /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9E20E6B7670C56F4CE2EFC /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		841A4E162BB6B050008C2253 /* TestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFrameworkTests.m; sourceTree = "<group>"; };
 		848D41592BBBE6A2001310EA /* CommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
 		848D415A2BBBE6A2001310EA /* CommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		848D415F2BBBF910001310EA /* TestFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestFramework.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		841A4E092BB6B04F008C2253 /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
+				848D415F2BBBF910001310EA /* TestFramework.podspec */,
 				841A4E0A2BB6B04F008C2253 /* TestFramework.h */,
 				848D41592BBBE6A2001310EA /* CommonUtils.h */,
 				848D415A2BBBE6A2001310EA /* CommonUtils.m */,
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848D41602BBBF910001310EA /* TestFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +434,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccz.testframework.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +476,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccz.testframework.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
